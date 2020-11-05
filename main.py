@@ -11,4 +11,4 @@ SPECIAL_CHARACTERS = string.punctuation
 PASSWORD = ''.join(random.choice(ASCII + DIGITS + SPECIAL_CHARACTERS) for _ in range(get_length()))
 
 if __name__ == '__main__':
-	print("\n	Passord: 		" + PASSWORD)
+	print("\n	Password: 		" + PASSWORD)
